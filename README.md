@@ -29,6 +29,24 @@
 | **Superpowers** | 스킬+훅+스크립트 | ~752K | 스킬 아키텍처의 교과서. 자가 발동 메커니즘 |
 | **Context7** | MCP형 | ~348K | (예정) 외부 데이터 주입 패턴 |
 
+## 다음 할 일 (Next)
+
+> 다른 컴퓨터에서 `git clone` 후 여기부터 이어가기.
+
+- [ ] **Week 2 — 만들 플러그인 아이디어 확정** (→ TIL 02)
+  - 체크업로그(RN 앱) 만들며 겪은 **반복 작업 1개**를 고른다.
+  - 후보: RN 컴포넌트 스캐폴더 / 디자인 토큰 가드(하드코딩 색상·spacing 차단) / 접근성 린터 / 스크린샷→컴포넌트
+  - `superpowers:brainstorming` 스킬로 범위 좁히고, 설계 결정을 TIL 02에 기록.
+- [ ] (선택) **TIL 01 보강** — Context7(MCP형) 해부 추가 → 스킬/훅/MCP 3대 유형 완성
+- [ ] Week 3 — MVP 구현 (plugin.json + SKILL.md 최소 구성부터)
+- [ ] Week 4 — marketplace.json 만들어 배포 & ClaudePluginHub 등록
+
+### TIL 01에서 "훔쳐올 것" 체크리스트 (제작 시 참고)
+- description에 트리거 조건을 자연어로 명시
+- AI가 흔히 틀리는 걸 `NEVER ...`로 이름 지목
+- 강제 순서엔 `<HARD-GATE>` 패턴
+- 스킬 커지면 부트스트랩 + 점진 로딩으로 토큰 절약
+
 ## 참고
 
 - [ClaudePluginHub](https://www.claudepluginhub.com/) — 플러그인 디렉토리
