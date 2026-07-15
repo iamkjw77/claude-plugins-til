@@ -25,8 +25,8 @@ Everything under `sources/` was written by other authors (e.g. Anthropic's Front
 
 - **Do not edit, refactor, or "improve" files in `sources/`** — they are evidence, kept verbatim to match the original.
 - Each plugin folder keeps its original `LICENSE` file. Preserve license/attribution.
-- Only the *specific files cited by an entry* are excerpted here, not whole repos. `sources/README.md` maps each file to the entry that cites it and records the version snapshot.
-- When a new entry analyzes a new plugin, add the excerpted files under `sources/<plugin>/`, its `LICENSE`, and a row in `sources/README.md` (folder, author, license, upstream link, version).
+- Each plugin is copied in as a **full repo snapshot** from the local install, excluding only VCS/runtime files (`.git`, `.in_use`). `sources/README.md` records which files each entry actually analyzes and the version snapshot.
+- When a new entry analyzes a new plugin, copy the whole plugin (minus `.git`/`.in_use`) under `sources/<plugin>/`, keep its `LICENSE`, and add a row in `sources/README.md` (folder, author, license, upstream link, version).
 
 ## Cross-linking convention
 
