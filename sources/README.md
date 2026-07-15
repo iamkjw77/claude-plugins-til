@@ -18,11 +18,11 @@
 
 ## 포함한 파일과 TIL 연결
 
-### `frontend-design/` — [TIL 01 §2](../entries/01-plugin-anatomy.md)
+### `frontend-design/` — [TIL 01](../entries/01-frontend-design.md)
 - `plugin.json` — 7줄짜리 메타데이터
 - `skills/frontend-design/SKILL.md` — 프롬프트 본체(트리거 `description` + `NEVER ...` 규칙)
 
-### `superpowers/` — [TIL 01 §3](../entries/01-plugin-anatomy.md)
+### `superpowers/` — [TIL 02](../entries/02-superpowers.md)
 - `plugin.json`, `marketplace.json` — 메타데이터
 - `hooks/hooks.json` — `SessionStart` 훅 등록
 - `hooks/session-start` — **자가 발동 스크립트** (using-superpowers를 컨텍스트에 주입)
